@@ -51,6 +51,7 @@
     "postcss-preset-env": "6.7.0",
     "rimraf": "3.0.2",
     "ts-jest": "25.2.0",
+    "ts-node": "8.6.2",
     "typescript": "3.7.5",
     "water.css": "git+https://git@github.com/kognise/water.css.git"
   }
