@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "clean": "rimraf ./public .parcel-cache",
-    "build": "parcel build --no-source-maps src/index.html",
+    "build": "npm run generate && parcel build --no-source-maps src/index.html",
     "rebuild": "npm run clean && npm run build",
     "generate": "ts-node -P tsconfig.json -O '{\"module\":\"commonjs\"}' src/_scripts/generate-readmes.ts",
     "test": "jest"
