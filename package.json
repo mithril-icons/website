@@ -1,0 +1,45 @@
+{
+  "name": "@mithril-icons/website",
+  "version": "1.0.0",
+  "description": "Demo website showcasing @mithril-icons packages",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "clean": "rimraf ./public .parcel-cache",
+    "build": "parcel build --no-source-maps src/index.html",
+    "rebuild": "npm run clean && npm run build",
+    "test": "jest"
+  },
+  "main": "public/index.html",
+  "keywords": [],
+  "author": "Michał Kijowski <michal@kijowski.dev> (https://kijowski.dev)",
+  "license": "MIT",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "dependencies": {
+    "mithril": "2.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "25.1.2",
+    "@types/mithril": "2.0.2",
+    "@typescript-eslint/eslint-plugin": "2.19.0",
+    "@typescript-eslint/parser": "2.19.0",
+    "autoprefixer": "9.7.4",
+    "eslint": "6.8.0",
+    "eslint-config-standard-with-typescript": "12.0.1",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "jest": "25.1.0",
+    "parcel": "2.0.0-alpha.3.2",
+    "postcss-calc": "7.0.1",
+    "postcss-import": "12.0.1",
+    "postcss-normalize": "8.0.1",
+    "postcss-preset-env": "6.7.0",
+    "rimraf": "3.0.2",
+    "ts-jest": "25.2.0",
+    "typescript": "3.7.5",
+    "water.css": "git+ssh://git@github.com/kognise/water.css.git"
+  }
+}
